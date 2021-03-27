@@ -38,7 +38,12 @@ module.exports = {
         "no-new-wrappers": "error",
         "constructor-super": "error",
         "no-duplicate-case": "error",
-        "no-redeclare": "error",
+        "@typescript-eslint/no-redeclare": [
+            "error",
+            {
+                ignoreDeclarationMerge: true
+            }
+        ],
         "@typescript-eslint/no-dynamic-delete": "error",
         "no-empty": "error",
         "no-eval": "error",
@@ -85,6 +90,13 @@ module.exports = {
                 "selector": "default",
                 "format": [
                     "camelCase"
+                ]
+            },
+            {
+                "selector": "typeAlias",
+                "leadingUnderscore": "allow",
+                "format": [
+                    "PascalCase"
                 ]
             },
             {
