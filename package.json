@@ -1,6 +1,6 @@
 {
   "name": "@pallad/eslint-config",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "Eslint config for @pallad packages",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pallad-ts/eslint-config/issues"
   },
+  "files": [
+    "index.js"
+  ],
   "homepage": "https://github.com/pallad-ts/eslint-config#readme"
 }
