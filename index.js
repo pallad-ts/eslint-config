@@ -128,7 +128,7 @@ module.exports = {
                     "camelCase",
                     "PascalCase"
                 ]
-            }
+            },
             {
                 "selector": "classProperty",
                 "modifiers": ["static"],
