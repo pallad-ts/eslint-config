@@ -83,7 +83,6 @@ module.exports = {
                 "default": "array-simple"
             }
         ],
-        "arrow-body-style": "error",
         "@typescript-eslint/naming-convention": [
             "error",
             {
