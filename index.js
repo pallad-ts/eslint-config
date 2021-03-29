@@ -74,7 +74,7 @@ module.exports = {
         "radix": "error",
         "@typescript-eslint/restrict-plus-operands": "error",
         "eqeqeq": "error",
-        "no-useless-constructor": "error",
+        "@typescript-eslint/no-useless-constructor": "error",
         "use-isnan": "error",
         "import/no-default-export": "error",
         "@typescript-eslint/array-type": [
@@ -89,6 +89,12 @@ module.exports = {
                 "selector": "default",
                 "format": [
                     "camelCase"
+                ]
+            },
+            {
+                "selector": "enumMember",
+                "format": [
+                    "UPPER_CASE"
                 ]
             },
             {
@@ -113,6 +119,20 @@ module.exports = {
                 "format": [
                     "PascalCase"
                 ]
+            },
+            {
+                "selector": "variable",
+                "modifiers": "exported",
+                "format": [
+                    "UPPER_CASE",
+                    "camelCase",
+                    "PascalCase"
+                ]
+            }
+            {
+                "selector": "classProperty",
+                "modifiers": ["static"],
+                "format": ["UPPER_CASE"]
             },
             {
                 "selector": "typeParameter",
