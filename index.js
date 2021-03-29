@@ -122,7 +122,7 @@ module.exports = {
             },
             {
                 "selector": "variable",
-                "modifiers": "exported",
+                "modifiers": ["exported"],
                 "format": [
                     "UPPER_CASE",
                     "camelCase",
