@@ -47,7 +47,6 @@ module.exports = {
         "@typescript-eslint/no-dynamic-delete": "error",
         "no-empty": "error",
         "no-eval": "error",
-        "@typescript-eslint/no-floating-promises": "error",
         "@typescript-eslint/no-for-in-array": "error",
         "no-template-curly-in-string": "error",
         "no-null/no-null": "error",
@@ -92,6 +91,25 @@ module.exports = {
                 ]
             },
             {
+                "selector": "enum",
+                "format": [
+                    "PascalCase"
+                ]
+            },
+            {
+                "selector": "classProperty",
+                "modifiers": ["static"],
+                "format": ["UPPER_CASE"]
+            },
+            {
+                "selector": "classProperty",
+                "format": ["camelCase"]
+            },
+            {
+                "selector": "objectLiteralProperty",
+                "format": ["camelCase", "snake_case", "UPPER_CASE"]
+            },
+            {
                 "selector": "enumMember",
                 "format": [
                     "UPPER_CASE"
@@ -128,11 +146,6 @@ module.exports = {
                     "camelCase",
                     "PascalCase"
                 ]
-            },
-            {
-                "selector": "classProperty",
-                "modifiers": ["static"],
-                "format": ["UPPER_CASE"]
             },
             {
                 "selector": "typeParameter",
