@@ -107,7 +107,7 @@ module.exports = {
             },
             {
                 "selector": "objectLiteralProperty",
-                "format": ["camelCase", "snake_case", "UPPER_CASE"]
+                "format": ["camelCase", "snake_case", "UPPER_CASE", "PascalCase"]
             },
             {
                 "selector": "enumMember",
