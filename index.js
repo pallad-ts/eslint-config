@@ -93,7 +93,7 @@ module.exports = {
             {
                 "selector": "classProperty",
                 "modifiers": ["static"],
-                "format": ["UPPER_CASE"]
+                "format": ["UPPER_CASE", "camelCase"]
             },
             {
                 "selector": "classProperty",
