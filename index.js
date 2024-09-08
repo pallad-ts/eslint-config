@@ -21,6 +21,7 @@ module.exports = tseslint.config(
             "@typescript-eslint/triple-slash-reference": "error",
             "@typescript-eslint/prefer-for-of": "error",
             "@typescript-eslint/await-thenable": "error",
+            "@typescript-eslint/unbound-method": "off",
             "curly": "error",
             "@typescript-eslint/require-await": "error",
             "no-cond-assign": "error",
