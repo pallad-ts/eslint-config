@@ -4,8 +4,8 @@
   "description": "Eslint config for @pallad packages",
   "main": "index.js",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6",
-    "@typescript-eslint/parser": "^6",
+    "@typescript-eslint/eslint-plugin": "^8",
+    "@typescript-eslint/parser": "^8",
     "eslint-plugin-import": "^2",
     "eslint-plugin-jsdoc": "^46",
     "eslint-plugin-no-null": "^1"
