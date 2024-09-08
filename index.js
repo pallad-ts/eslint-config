@@ -3,8 +3,7 @@ const jsdoc = require('eslint-plugin-jsdoc');
 const importPlugin = require('eslint-plugin-import');
 
 module.exports = tseslint.config(
-    ...tseslint.configs.strictTypeChecked,
-    ...tseslint.configs.stylisticTypeChecked,
+    tseslint.configs.base,
     {
         languageOptions: {
             parserOptions: {
