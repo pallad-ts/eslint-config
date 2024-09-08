@@ -1,6 +1,6 @@
 {
   "name": "@pallad/eslint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Eslint config for @pallad packages",
   "main": "index.js",
   "dependencies": {
