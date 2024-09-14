@@ -5,6 +5,7 @@ const importPlugin = require('eslint-plugin-import');
 module.exports = tseslint.config(
     tseslint.configs.base,
     {
+        files: ["**/*.ts"],
         languageOptions: {
             parserOptions: {
                 projectService: true,
